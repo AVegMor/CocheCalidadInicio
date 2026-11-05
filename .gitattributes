@@ -1,0 +1,4 @@
+# gradlew siempre con finales de línea LF (si no, falla en Linux y en Docker)
+gradlew text eol=lf
+*.bat   text eol=crlf
+*.jar   binary
